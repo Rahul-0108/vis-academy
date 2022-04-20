@@ -33,7 +33,7 @@ const reducers = combineReducers({
   // mount keplerGl reducer
   keplerGl: keplerGlReducer,
   app: handleActions({
-    // empty
+   // you can put your app reducer here
   }, initialAppState),
   routing: routerReducer
 });
